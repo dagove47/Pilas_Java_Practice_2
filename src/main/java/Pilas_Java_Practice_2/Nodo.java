@@ -10,4 +10,35 @@ package Pilas_Java_Practice_2;
  */
 public class Nodo {
     
+    private String traste;
+    private int cubierto;
+    private Nodo nodoAnterior;
+    
+    public Nodo() {
+        this.nodoAnterior = null;
+    }
+    
+    public Nodo getNodoAnterior() {
+        return nodoAnterior;
+    }
+    
+    public String getTraste() {
+        return traste;
+    }
+    
+    public int getCubierto() {
+        return cubierto;
+    }
+    
+    public void setNodoAnterior(Nodo nodoAnterior) {
+        this.nodoAnterior = nodoAnterior;
+    }
+    
+    public void setTraste(String traste) {
+        this.traste = traste;
+    }
+    
+    public void setCubierto(int cubierto) {
+        this.cubierto = cubierto;
+    }
 }
