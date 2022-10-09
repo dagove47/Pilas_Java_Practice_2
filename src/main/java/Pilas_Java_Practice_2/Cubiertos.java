@@ -10,4 +10,17 @@ package Pilas_Java_Practice_2;
  */
 public class Cubiertos {
     
+    private int cantidad;
+    
+    public Cubiertos() {
+        this.cantidad = 0;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
 }

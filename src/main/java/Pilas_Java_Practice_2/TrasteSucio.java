@@ -10,4 +10,17 @@ package Pilas_Java_Practice_2;
  */
 public class TrasteSucio {
     
+    private String tipoTraste;
+    
+    public TrasteSucio() {
+        this.tipoTraste = "";
+    }
+    
+    public String getTipoTraste() {
+        return tipoTraste;
+    }
+    
+    public void setTipoTraste(String tipoTraste) {
+        this.tipoTraste = tipoTraste;
+    }
 }
